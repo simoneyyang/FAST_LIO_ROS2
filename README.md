@@ -62,12 +62,12 @@
 </div> -->
 
 ## 1. Prerequisites
-### 1.1 **Ubuntu** and **ROS**
+### 1.1 **Ubuntu** and **ROS2**
 **Ubuntu >= 20.04**
 
 The **default from apt** PCL and Eigen is enough for FAST-LIO to work normally.
 
-ROS >= Foxy (Recommend to use ROS-Humble). [ROS Installation](https://docs.ros.org/en/humble/Installation.html)
+ROS2 >= Foxy (Recommend to use ROS-Humble). [ROS Installation](https://docs.ros.org/en/humble/Installation.html)
 
 ### 1.2. **PCL && Eigen**
 PCL    >= 1.8,   Follow [PCL Installation](https://pointclouds.org/downloads/#linux).
@@ -89,7 +89,7 @@ Clone the repository and colcon build:
 
 ```bash
     cd <ros2_ws>/src # cd into a ros2 workspace folder
-    git clone https://github.com/Ericsii/FAST_LIO.git --recursive
+    git clone https://github.com/simoneyyang/FAST_LIO_ROS2.git --recursive
     cd ..
     rosdep install --from-paths src --ignore-src -y
     colcon build --symlink-install
