@@ -2,7 +2,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <pcl_conversions/pcl_conversions.h>
 #include <sensor_msgs/msg/point_cloud2.hpp>
-#include <livox_interfaces/msg/CustomMsg.hpp> //livox_interfaces/msg/CustomMsg.msg
+#include <~/ros2_ws/src/ws_livox/src/livox_interfaces/msg/CustomMsg.hpp> //livox_interfaces/msg/CustomMsg.msg
 
 using namespace std;
 
