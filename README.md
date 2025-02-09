@@ -62,12 +62,12 @@
 </div> -->
 
 ## 1. Prerequisites
-### 1.1 **Ubuntu** and **ROS**
+### 1.1 **Ubuntu** and **ROS2**
 **Ubuntu >= 20.04**
 
 The **default from apt** PCL and Eigen is enough for FAST-LIO to work normally.
 
-ROS >= Foxy (Recommend to use ROS-Humble). [ROS Installation](https://docs.ros.org/en/humble/Installation.html)
+ROS2 >= Foxy (Recommend to use ROS-Humble). [ROS Installation](https://docs.ros.org/en/humble/Installation.html)
 
 ### 1.2. **PCL && Eigen**
 PCL    >= 1.8,   Follow [PCL Installation](https://pointclouds.org/downloads/#linux).
